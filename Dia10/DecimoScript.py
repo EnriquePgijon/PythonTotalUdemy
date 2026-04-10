@@ -107,7 +107,7 @@ while se_ejecuta:
             if event.key == pygame.K_RIGHT:
                 jugador_x_cambio=1
             if event.key==pygame.K_SPACE:
-                sonido_bala=mixer.Sound('disparo.mp3')
+                sonido_bala=mixer.Sound('disparomp3')
                 sonido_bala.play()
                 if not bala_visible:
                     bala_x=jugador_x
